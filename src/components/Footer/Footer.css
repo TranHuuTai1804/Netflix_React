@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 50px;
+    padding: 0 20%;
+}
+
+.app img {
+    width: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.list {
+    margin-bottom: 20px;
+}
+
+.list li {
+    margin-bottom: 20px;
+}
+
+.list li a:hover {
+    color: rgb(121, 121, 121);
+}
+
+.copyright {
+    margin-bottom: 30px;
+}
+
+.footer .list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
