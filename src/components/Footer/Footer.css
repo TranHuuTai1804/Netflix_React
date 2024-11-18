@@ -1,12 +1,14 @@
 .footer {
-    margin-top: 50px;
-    padding: 0 20%;
+    padding: 30px 4%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .app img {
     width: 30px;
     margin-right: 20px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .list {
