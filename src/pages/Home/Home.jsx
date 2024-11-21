@@ -16,7 +16,6 @@ const Home = () => {
         <div className="hero">
           <img src={hero_banner} alt="" className="banner_img"/>
         </div>
-
         <div className="content">
             <img src={hero_title} alt="" className="hero_banner"/>
             <p className="desc">Discovering his ties to a secret ancient order,a young man living in modern 
@@ -33,7 +32,9 @@ const Home = () => {
                 More info
               </button>
             </div>
+            <div className="popular">
             <TitleCards/>
+            </div>
         </div>
 
         <div className="more_cards">

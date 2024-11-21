@@ -2,12 +2,10 @@
     position: relative;
 }
 
-
 .banner_img {
     width: 100%;
     mask-image: linear-gradient(to right, transparent, black 75%);
     -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
-    z-index: -1;
 }
 
 .content {
@@ -37,7 +35,6 @@
 
 .hero_btn .btn img {
     width: 25px;
-    margin-bottom: 0;
 }
 
 .hero_btn .btn {
@@ -69,4 +66,61 @@
 
 .more_cards {
     padding-left: 6%;
+}
+
+@media (max-width: 1024px) {
+    .content .title_cards {
+        display: none;
+    }
+
+    .hero_btn {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .content {
+        padding-left: 4%;
+    }
+
+    .hero_banner {
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    .content .desc {
+        font-size: 14px; 
+    }
+
+    .btn img {
+        width: 20px;
+    }
+
+    .more_cards {
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero_banner {
+        display: none;
+    }
+
+    .hero_btn .btn img {
+        width: 15px;
+    }
+
+    .hero_btn .btn {
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .content {
+        padding-left: 2%; 
+    }
+
+    .content .desc {
+        font-size: 12px; 
+    }
 }

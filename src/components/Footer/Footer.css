@@ -29,5 +29,36 @@
 
 .footer .list {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 768px) {
+    .footer .list {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .app .img {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer .list {
+        grid-template-columns: 1fr; 
+    }
+
+    .app img {
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .app {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        margin-bottom: 20px;
+        gap: 6px;
+    }
 }
