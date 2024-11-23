@@ -3,4 +3,4 @@
 Dự án React cho Netflix Clone.
 
 ## Truy cập trang web
-[Netflix React trên GitHub Pages](http://localhost:5173/Netflix_React/)
+[Netflix React trên GitHub Pages](https://tranhuutai1804.github.io/Netflix_React/)
