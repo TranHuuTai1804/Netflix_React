@@ -15,26 +15,15 @@ const Home = () => {
         <Navbar/>
         <div className="hero">
           <img src={hero_banner} alt="" className="banner_img"/>
-        </div>
-        <div className="content">
-            <img src={hero_title} alt="" className="hero_banner"/>
-            <p className="desc">Discovering his ties to a secret ancient order,a young man living in modern 
-              istanbul embanks on a quest to save the city from an immortal enemy.
-            </p>
-
-            <div className="hero_btn">
-              <button className="btn">
-                <img src={play_icon} alt="" />
-                Play
-              </button>
-              <button className="btn dark_btn">
-                <img src={info_icon} alt="" />
-                More info
-              </button>
+          <div className="hero_caption">
+            <img src={hero_title} alt="" className="caption_img"/>
+            <p>Discovering his ties to a secret ancient oder, a young man living in modern Istanbul embarks on a quest to save the city from an immortal enemy</p>
+            <div className="hero_btns">
+              <button className="btn"><img src={play_icon} alt="" />Play</button>
+              <button className="btn dark_btn"><img src={info_icon} alt="" />More info</button>
             </div>
-            <div className="popular">
             <TitleCards/>
-            </div>
+          </div>
         </div>
 
         <div className="more_cards">
